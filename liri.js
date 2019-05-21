@@ -8,7 +8,7 @@ var fs = require('fs');
 var terminalReq = process.argv[2];
 var apiRes = process.argv[3];
 
-//Spotify//====================================================================================
+//Spotify//=============================================
 
 /*var songTitle = "";
 
@@ -29,6 +29,9 @@ function spotifyThis(songTitle) {
     console.log(err);
   });
 }*/
+// create an array out of query parameters
+// loop through this array
+// set up spotifys response to be functional in terminal
 
 //Bands In Town//==============================================================================
 
@@ -47,6 +50,9 @@ function concertThis(show) {
 if (process.argv[2] === "concert-this") {
     concertThis(process.argv[3]);
 }
+
+// get band name of Venue
+// get band name of venue location
 
 //OMDB//=======================================================================================
 
@@ -73,3 +79,10 @@ if (process.argv[2] === "movie-this") {
     getMovie(process.argv[3]);
 }
 
+//Do What it Says//===============================================================================
+
+//create a function
+//connect with Random.txt
+//create an if statement based on user command
+//make a deafult response connected with Spotify API
+//call the function
