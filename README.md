@@ -1,4 +1,5 @@
 # -liri-node-app
+[Code @ GitHub](https://github.com/christophcannz/liri-node-app)
 Liri Bot
 
 The Liri Bot will retrieve information about a requested song, concert, movie, as well as call a random command.
